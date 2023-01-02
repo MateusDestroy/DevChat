@@ -1,4 +1,5 @@
-import Inputslogin from "../../components/login";
+import Buttonslogin from "../../components/login/buton-login";
+import Inputslogin from "../../components/login/inputs-login";
 import Logo from "../../components/logo/index"
 
 import "./styled.scss";
@@ -11,9 +12,11 @@ export default function login() {
       </div>
       <div className="contenier-login">
         <div className="login">
-          <div>Login</div>
+          <h2>Login</h2>
 
-          <Inputslogin></Inputslogin>
+          <Inputslogin/>
+          <Buttonslogin/>
+          <></>
         </div>
       </div>
 
