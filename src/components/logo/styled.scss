@@ -1,0 +1,23 @@
+.conteiner {
+
+
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+     margin:30px; 
+     margin-right: 10px; 
+
+
+    color: white;
+}
+
+.nome {
+
+    font-size: 40px;
+    padding-right: 45px;
+
+    label {
+        color: #548DFA;
+    }
+}
