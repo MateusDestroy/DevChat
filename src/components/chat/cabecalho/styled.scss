@@ -1,0 +1,27 @@
+.chat-cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+
+    
+}
+
+
+.nome-logo-chat{
+
+    font-size: 2em;
+
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+
+.sair {
+    padding-left: 12em;
+}
+
+img {
+    width: 60px;
+    height: 50px;
+   
+}

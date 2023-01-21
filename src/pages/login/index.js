@@ -6,21 +6,22 @@ import "./styled.scss";
 
 export default function login() {
   return (
-    <body>
-      <div className="conteiner-logo">
+    
+      <div className="conteiner-tela-login">
         <Logo/>
-      </div>
+     
       <div className="contenier-login">
         <div className="login">
-          <h2>Login</h2>
+          <h2 className="login-nome">Login</h2>
 
           <Inputslogin/>
           <Buttonslogin/>
-          <></>
+        
         </div>
       </div>
+     </div>
 
      
-    </body>
+    
   );
 }

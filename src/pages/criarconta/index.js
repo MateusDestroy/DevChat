@@ -6,21 +6,22 @@ import "./styled.scss";
 
 export default function login() {
   return (
-    <body>
-      <div className="conteiner-logo">
+    
+      <div className="conteiner-conta">
         <Logo/>
-      </div>
+   
       <div className="contenier-criarconta">
         <div className="criarconta">
-          <h2>Criar Conta</h2>
+          <h2 className="conta">Criar Conta</h2>
 
         
           <Inputcriarconta></Inputcriarconta>
           <Buttonscriaconta></Buttonscriaconta>
         </div>
       </div>
+      </div>
 
      
-    </body>
+    
   );
 }

@@ -1,16 +1,17 @@
-
-body{
-    text-align: center;
+.conteiner-tela-login{
+    height: 844px;
     margin: 0px;
+    
     box-sizing: border-box;
     background-color: black;
+
+    text-align: center;
     color: white;
 }
 
-h2{
+.login-nome{
 
-
-    margin-top: 3em;
+    padding-top: 3em;
     font-family: 'Roboto', sans-serif;
     font-style: Medium;
   
