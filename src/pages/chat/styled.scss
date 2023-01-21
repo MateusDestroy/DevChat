@@ -5,12 +5,27 @@
     background-color: #548DFA;
 }
 
-.conteiner-mensagens-chat {
 
-    height: 40em; 
+
+
+.conteiner-mensagens-chat{
+    display: flex;
+    flex-direction: column;
+    height: 44em;
     
     
-    margin: 2em 18px 0px 18px;   
+    margin: 2em 18px 2em 18px;   
     background-color: #3769C7;
- 
+    
 }
+
+.chat {
+     margin: 15px;
+     height: 10em;
+     background-color: #548DFA;
+}
+
+.mensagens-chat{
+  
+}
+
