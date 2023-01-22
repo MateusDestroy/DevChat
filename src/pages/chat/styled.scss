@@ -11,21 +11,39 @@
 .conteiner-mensagens-chat{
     display: flex;
     flex-direction: column;
-    height: 44em;
+   
+    height: 45em;
     
     
-    margin: 2em 18px 2em 18px;   
+    margin: 2em 10px 2em 10px;   
     background-color: #3769C7;
     
 }
 
+span {
+    font-weight: bold;
+}
+
 .chat {
+    display: flex;
+     overflow-x: scroll;
+    
      margin: 15px;
-     height: 10em;
+     height: 30em;
      background-color: #548DFA;
 }
 
+.mensagens {
+    margin: 10px;
+}
+
 .mensagens-chat{
-  
+    
+  margin: 10px;
+  color: white;
+}
+
+.usuario-nome {
+    font-weight: bold;
 }
 

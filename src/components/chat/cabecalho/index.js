@@ -1,3 +1,7 @@
+
+
+
+import { Link } from 'react-router-dom'
 import './styled.scss'
 
 export default function Cabecalho (){
@@ -8,7 +12,7 @@ export default function Cabecalho (){
          <div className="nome-logo-chat">Chat</div>
        
 
-         <div className='sair'> <img src="assets/image/sair.svg" alt=""/></div>
+         <Link to= "/">   <div className='sair'> <img src="assets/image/sair.svg" alt=""/></div></Link>
        
        </div>
     )
