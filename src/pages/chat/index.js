@@ -1,5 +1,5 @@
 import Cabecalho from "../../components/chat/cabecalho";
-import Inputschat from "../../components/inputs-chat";
+import Inputschat from "../../components/chat/inputs-chat";
 import "./styled.scss";
 
 export default function Chat() {
