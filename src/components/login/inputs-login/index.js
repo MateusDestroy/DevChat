@@ -5,6 +5,10 @@ import { useState } from "react";
 
 import Cookies from "js-cookie";
 import "./styled.scss";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
+
 
 import Api from "../../../services/api";
 import { useNavigate } from "react-router-dom";
@@ -33,6 +37,9 @@ export default function input() {
   const logar = async () => {
     let resp = await api.login(login, senha);
     if (resp.erro) {
+      toast.error("Usuário inválindo", {
+        position: toast.POSITION.TOP_RIGHT,
+      });
     } else {
       Cookies.set("usuario-logado", JSON.stringify(resp));
       navig("/Chat");
@@ -45,7 +52,7 @@ export default function input() {
 
   
     <div className="inputs">
-      
+      <ToastContainer></ToastContainer>
     
       <label className="email-login-tela-inicial">
         <input
