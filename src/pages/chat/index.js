@@ -1,5 +1,6 @@
 import Cabecalho from "../../components/chat/cabecalho";
-
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "./styled.scss";
 
 import { useNavigate } from "react-router-dom";
@@ -34,6 +35,7 @@ export default function Chat() {
     if (!resp.erro)
 
      return true;
+     toast.error(`${resp.erro}`);
 
     return false;
 
@@ -54,6 +56,8 @@ export default function Chat() {
 
     const resp = await api.inserirMensagem(sala, usu, msg);
     if (!validarResposta(resp)) return;
+
+    toast.dark('💕 Mensagem enviada com sucesso!');
     await puxarmensagem();
 
   
@@ -63,6 +67,8 @@ export default function Chat() {
   const inserirSala = async () => {
     const resp = await api.inserirSala(sala);
     if (!validarResposta(resp)) return;
+
+    toast.dark('💕 Sala cadastrada!');
     await puxarmensagem();
 
 
@@ -79,7 +85,9 @@ export default function Chat() {
 
   return (
     <div className="conteiner-chat">
+         
       <Cabecalho></Cabecalho>
+      <ToastContainer />
       <div className="conteiner-mensagens-chat">
 
     
