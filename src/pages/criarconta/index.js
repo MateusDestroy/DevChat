@@ -1,4 +1,4 @@
-import Buttonscriaconta from "../../components/criarconta/buttons-criaconta";
+
 import Inputcriarconta from "../../components/criarconta/inputs-criarconta";
 import Logo from "../../components/logo/index"
 
@@ -16,7 +16,7 @@ export default function login() {
 
         
           <Inputcriarconta></Inputcriarconta>
-          <Buttonscriaconta></Buttonscriaconta>
+        
         </div>
       </div>
       </div>

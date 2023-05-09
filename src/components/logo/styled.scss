@@ -1,29 +1,216 @@
+
+
+
+
+
+@media screen and (height: 789px) and (width: 1600px)   {
+
 .conteiner {
-
-
     display: flex;
-    flex-direction: row;
-   
+     flex-direction: column;
+
+    
     align-items: center;
-     padding:30px; 
-     margin-right: 10px; 
+
+    justify-content: center;
+    background-color: black;
+
+    height: 789px;
+    width: 50%;
 
 
-    color: white;
-   
-}
 
-.logo{
-    width: 50px;
-    height: 50px;
-}
 
-.nome {
 
-    font-size: 48px;
-    padding-right: 45px;
+    color: #FFFFFF;
 
     label {
         color: #548DFA;
     }
 }
+
+
+.conteiner-logo {
+    text-align: center;
+}
+
+.nome {
+    padding-bottom: 0.5em;
+    font-size: 5em;
+    font-family: 'Roboto', sans-serif;
+
+    animation-name: nomeDev;
+    animation-duration: 2s;
+
+    @keyframes nomeDev {
+        from {padding-left: 6em ;}
+        to {padding-right: 0px;}
+        
+    }
+}
+
+ 
+.logo img {
+
+         
+    height: 13em;
+    width: 13em;
+
+  
+
+    animation-name: devchat;
+    animation-duration: 2s;
+
+  
+    @keyframes devchat {
+        from {padding-left: 35em ;}
+        to {padding-right: 0px;}
+    }
+}
+
+
+
+
+}
+
+
+
+@media screen and (height: 900px) and (width: 1600px)   {
+
+    .conteiner {
+        display: flex;
+         flex-direction: column;
+    
+        
+        align-items: center;
+    
+        justify-content: center;
+        background-color: black;
+    
+        height: 900px;
+        width: 50%;
+    
+    
+    
+    
+    
+        color: #FFFFFF;
+    
+        label {
+            color: #548DFA;
+        }
+    }
+    
+    
+    .conteiner-logo {
+        text-align: center;
+    }
+    
+    .nome {
+        padding-bottom: 0.5em;
+        font-size: 5em;
+        font-family: 'Roboto', sans-serif;
+    
+        animation-name: nomeDev;
+        animation-duration: 2s;
+    
+        @keyframes nomeDev {
+            from {padding-left: 6em ;}
+            to {padding-right: 0px;}
+            
+        }
+    }
+    
+    .logo img {
+
+         
+        height: 13em;
+        width: 13em;
+
+        animation-name: devchat;
+
+      
+    }
+
+
+    @keyframes devchat {
+        from {padding-left: 35em ;}
+        to {padding-right: 0px;}
+    }
+
+}
+
+@media  screen and (width: 390px) and (height: 844px)   {
+    .conteiner-logo {
+
+
+        display: flex;
+        flex-direction: row;
+       
+        align-items: center;
+         padding:30px; 
+         margin-right: 10px; 
+    
+    
+        color: white;
+       
+    }
+    
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .nome {
+    
+        font-size: 48px;
+        padding-right: 45px;
+    
+        label {
+            color: #548DFA;
+        }
+    }
+    }
+    
+    
+    
+    
+    
+    
+    @media  screen and (width: 400px) and (height: 700px)   {
+    
+        
+        .conteiner-logo {
+        display: flex;
+        flex-direction: row;
+       
+        align-items: center;
+         padding:30px; 
+         margin-right: 10px; 
+    
+    
+        color: white;
+       
+    }
+    
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .nome {
+    
+        font-size: 48px;
+        padding-right: 45px;
+    
+        label {
+            color: #548DFA;
+        }
+    }
+    }
+    
+    
+    
+
+
+

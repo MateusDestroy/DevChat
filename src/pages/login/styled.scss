@@ -1,6 +1,88 @@
 
-@media only screen and (max-height: 844px) {
-    .conteiner-tela-login{
+
+
+
+@media screen and (height: 789px) and (width: 1600px) {
+    .conteiner-page-login {
+        display: flex;
+        flex-direction: row-reverse;
+      
+    }
+
+    .contenier-login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+      
+
+        height: 789px;
+        width: 50%;
+
+        
+        background-color: #548DFA;
+    }
+
+
+    .login-nome {
+        margin-top: 3em;
+        margin-bottom: 2em;
+
+        font-size: 3em;
+         color: white;
+        
+    }
+
+    .login {
+      text-align: center;
+    }
+
+
+
+
+}
+
+
+
+@media screen and (height: 900px) and (width: 1600px)   {
+    .conteiner-page-login {
+    display: flex;
+    flex-direction: row-reverse;
+  
+}
+
+    .contenier-login {
+        height: 900px;
+        width: 50%;
+        background-color: #548DFA;
+    }
+
+    .login-nome {
+        margin-top: 3em;
+        margin-bottom: 2em;
+
+        font-size: 3em;
+         color: white;
+        
+    }
+
+    .login {
+      text-align: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media  screen and (width: 390px) and (height: 844px)   {
+    .conteiner-page-login{
         height: 844px;
         margin: 0px;
         
@@ -10,27 +92,8 @@
         text-align: center;
         color: white;
     }
+
     
-}
-
-
-@media only screen and (max-height: 700px) {
-    
-    .conteiner-tela-login{
-        height: 700px;
-        margin: 0px;
-        
-        box-sizing: border-box;
-        background-color: black;
-    
-        text-align: center;
-        color: white;
-    }
-}
-
-
-
-
 .login-nome{
 
     padding-top: 3em;
@@ -41,9 +104,24 @@
 
 }
 
-
-@media screen and (max-height: 700px) {
     
+}
+
+
+@media  screen and (width: 400px) and (height: 700px) {
+    
+    .conteiner-page-login{
+        height: 700px;
+        margin: 0px;
+        
+        box-sizing: border-box;
+        background-color: black;
+    
+        text-align: center;
+        color: white;
+    }
+
+       
     .login-nome{
     
         padding-top: 1em;
@@ -54,4 +132,6 @@
     
     }
 }
+
+
 

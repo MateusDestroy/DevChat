@@ -1,82 +1,71 @@
-.inputs {
-    display: flex;
-    flex-direction: column;
-}   
+.CriarContaButton {
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    border-radius: 50px;
+    color: white;
+    background-color: #50B4BF;
+    border: none;
+    cursor: pointer;
+}
 
 
-@media only screen and (max-height: 844px)  {
+.voltar {
+    color:white;
+    text-decoration: none;
+}
+
+
+.voltar :hover {
+    color: #50B4BF;
+}
+
+
+
+
+
+
+
+@media  screen and (width: 390px) and (height: 844px) {
     
-    .email-login{
-        margin-bottom: 50px ;
+
     
-        .email {
+
+        .inputs-cadastro {
             
             padding-top: 15px;
             padding-bottom: 15px;
             padding-left: 40px;
             padding-right: 40px;
-        
-            border-radius: 50px;
-            
-            text-align: center;
-        }    
-    }    
-    
-    
-    .input-senha{
-        margin-bottom: 50px ;
-        
-        .senha {
-            
-            padding-top: 15px;
-            padding-bottom: 15px;
-            padding-left: 40px;
-            padding-right: 40px;
             
             border-radius: 50px;
             
             text-align: center;
         }    
-    }    
+       
 }    
 
 
 
 
-@media only  screen and (max-height: 700px) {
+@media  screen and (width: 400px) and (height: 700px){
     
-    .email-login{
-        margin-bottom: 20px;
-    
-        .email {
-            
-            padding-top: 15px;
-            padding-bottom: 15px;
-            padding-left: 40px;
-            padding-right: 40px;
-        
-            border-radius: 50px;
-        
-            text-align: center;
-        }
+ 
+    label {
+        margin-bottom: 25px ;
     }
-    
-        .input-senha{
-            margin-bottom: 20px ;
+    .inputs-cadastro {
+            
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
         
-            .senha {
-                
-                padding-top: 15px;
-                padding-bottom: 15px;
-                padding-left: 40px;
-                padding-right: 40px;
-            
-                border-radius: 50px;
-            
-                text-align: center;
-            }
-    
+        border-radius: 50px;
+        
+        text-align: center;
     }    
+   
 }
-
-

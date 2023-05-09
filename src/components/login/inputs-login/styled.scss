@@ -1,6 +1,208 @@
+@media screen and (height: 900px) and (width: 1600px)  {
+
 .inputs {
     display: flex;
     flex-direction: column;
+
+}
+
+
+
+
+
+ .email {
+    background-color: white;
+    text-align: center;
+    padding: 2em 4em 2em 4em;
+
+
+    border: none;
+    border-radius: 50px;
+    
+}
+
+ .senha {
+    background-color: white;
+    text-align: center;
+    padding: 2em 4em 2em 4em;
+
+
+    border: none;
+    border-radius: 50px;
+    
+}
+
+.inputs-cadastro {
+    background-color: white;
+    text-align: center;
+    padding: 2em 4em 2em 4em;
+
+
+    border: none;
+    border-radius: 50px;
+    
+}
+
+label {
+    
+    margin-bottom: 2em;
+}
+
+
+
+
+
+.button-entra {
+    
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    margin-top: 10px ;
+    margin-bottom: 10px;
+
+
+    border-radius: 50px;
+    color: white;
+    background-color: #50B4BF;
+    border:none;
+    cursor: pointer;
+}
+
+.criar  {
+    color: white;
+    text-decoration: none;
+}
+
+.criar  :hover {
+    color: #50B4BF ;
+}
+}
+
+
+@media screen and (height: 789px) and (width: 1600px)  {
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+
+ .email {
+    background-color: white;
+    text-align: center;
+    padding: 2em 4em 2em 4em;
+
+
+    border: none;
+    border-radius: 50px;
+    
+}
+
+ .senha {
+    background-color: white;
+    text-align: center;
+    padding: 2em 4em 2em 4em;
+
+
+    border: none;
+    border-radius: 50px;
+    
+}
+
+.inputs-cadastro {
+    background-color: white;
+    text-align: center;
+    padding: 2em 4em 2em 4em;
+
+
+    border: none;
+    border-radius: 50px;
+    
+}
+
+label {
+    
+    margin-bottom: 2em;
+}
+
+
+
+
+.button-entra {
+    
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    margin-top: 10px ;
+    margin-bottom: 10px;
+
+
+    border-radius: 50px;
+    color: white;
+    background-color: #50B4BF;
+    border:none;
+    cursor: pointer;
+}
+
+.criar  {
+    color: white;
+    text-decoration: none;
+}
+
+.criar  :hover {
+    color: #50B4BF ;
+}
+
+.ver-senha-checkbox {
+  
+    
+    font-size: 15px;
+    color: white;
+     align-items: center;
+}
+}
+
+
+
+@media  screen and (width: 390px) and (height: 844px)  {
+    .inputs {
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    
+
+.button-entra {
+    
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    margin-top: 10px ;
+    margin-bottom: 10px;
+
+
+    border-radius: 50px;
+    color: white;
+    background-color: #50B4BF;
+    border:none;
+    cursor: pointer;
+}
+
+.criar  {
+    color: white;
+    text-decoration: none;
+}
+
+.criar  :hover {
+    color: #50B4BF ;
 }
 
 
@@ -36,5 +238,155 @@
         text-align: center;
     }
 }
+
+label {
+    
+    margin-bottom: 2em;
+}
+
+
+
+.ver-senha-checkbox {
+   
+    
+    font-size: 15px;
+    color: white;
+
+    
+    .ver {
+        margin: 2px;
+    }
+    
+ 
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media  screen and (width: 400px) and (height: 700px)  {
+
+    .button-entra {
+        
+        padding: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+    
+        margin-top: 10px ;
+        margin-bottom: 10px;
+    
+    
+        border-radius: 50px;
+        color: white;
+        background-color: #50B4BF;
+        border:none;
+        cursor: pointer;
+    }
+    
+    .criar  {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .criar  :hover {
+        color: #50B4BF ;
+    }
+    
+    
+    .inputs {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .email-login-tela-inicial{
+        margin-bottom: 20px ;
+    
+        .email {
+            
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 40px;
+            padding-right: 40px;
+        
+            border-radius: 50px;
+        
+            text-align: center;
+        }
+    }
+    
+    
+    .senha-login-tela-inicial{
+        margin-bottom: 50px ;
+    
+        .senha {
+            
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 40px;
+            padding-right: 40px;
+        
+            border-radius: 50px;
+        
+            text-align: center;
+        }
+    }
+
+    .ver-senha-checkbox {
+   
+    
+        font-size: 15px;
+        color: white;
+    
+        
+        .ver {
+            margin: 2px;
+        }
+        
+     
+    }
+    
+
+    
+    
+
+ }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

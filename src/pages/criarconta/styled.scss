@@ -1,49 +1,131 @@
 
 
-@media  only screen and (max-height: 844px) {
+@media screen and (height: 789px) and (width: 1600px)  {
+
+
+.conteiner-conta {
+    display: flex;
+    flex-direction: row-reverse;
+  
+}
+
+
+
+
+ 
+.contenier-criarconta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  
+
+    height: 789px;
+    width: 50%;
+
     
+    background-color: #548DFA;
+}
+
+.criarconta {
+    
+    text-align: center;
+  }
+
     .conta {
-        margin-top: 2em;
-        font-size: 43px;
+        margin-top: 2.5em;
+        margin-bottom: 1.5em;
+        font-size: 3em;
+        color: white;
+    }
+
+}
+
+
+@media screen and (height: 900px) and (width: 1600px)  {
+
+
+    .conteiner-conta {
+        display: flex;
+        flex-direction: row-reverse;
+      
+    }
+    
+    
+    
+    
+     
+    .contenier-criarconta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+      
+    
+        height: 900px;
+        width: 50%;
+    
+        
+        background-color: #548DFA;
+    }
+    
+    .criarconta {
+        
+        text-align: center;
+      }
+    
+        .conta {
+            margin-top: 2.5em;
+            margin-bottom: 1.5em;
+            font-size: 3em;
+            color: white;
+        }
     
     }
-}
-@media only screen and (max-height: 844px) {
+
+
+
+
+
+
+    @media  screen and (width: 390px) and (height: 844px) {
     
+        .conta {
+            margin-top: 2em;
+            font-size: 43px;
+        
+        }
+        
+                
+        .conteiner-conta{
+            text-align: center;
+            margin: 0px;
+            box-sizing: border-box;
+            background-color: black;
+            color: white;
+            height: 844px;
+        }
+    }
+  
+    
+    
+    
+    @media  screen and (width: 400px) and (height: 700px) {
+        
+        .conta {
+            margin-top: 1em;
+            font-size: 43px;
+        
+        }
+
     .conteiner-conta{
         text-align: center;
         margin: 0px;
         box-sizing: border-box;
         background-color: black;
         color: white;
-        height: 844px;
+        height: 700px;
     }
-}
-
-
-
-
-@media only screen and (max-height: 700px) {
-    
-
-.conteiner-conta{
-    text-align: center;
-    margin: 0px;
-    box-sizing: border-box;
-    background-color: black;
-    color: white;
-    height: 700px;
-}
-
-}
-
-
-
-@media  only screen and (max-height: 700px) {
-    
-    .conta {
-        margin-top: 1em;
-        font-size: 43px;
     
     }
-}
+    
