@@ -2,7 +2,7 @@
 
 
 
-@media screen and (height: 789px) and (width: 1600px) {
+@media screen and (height: 789px) and (min-width: 1600px) {
     .conteiner-page-login {
         display: flex;
         flex-direction: row-reverse;
@@ -81,6 +81,61 @@
 
 
 
+
+@media  screen and  (min-width: 320px) and (max-width: 480px)   {
+
+    .conteiner-page-login{
+        height: 700px;
+        margin: 0px;
+        
+        box-sizing: border-box;
+        background-color: black;
+    
+        text-align: center;
+        color: white;
+    }
+    
+       
+    .login-nome{
+    
+        padding-top: 1em;
+        font-family: 'Roboto', sans-serif;
+        font-style: Medium;
+      
+        font-size: 50px;
+    
+    
+    }
+
+
+
+
+@media  screen and (width: 400px) and (height: 700px){
+    .conteiner-page-login{
+    height: 700px;
+    margin: 0px;
+    
+    box-sizing: border-box;
+    background-color: black;
+
+    text-align: center;
+    color: white;
+}
+
+   
+.login-nome{
+
+    padding-top: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-style: Medium;
+  
+    font-size: 50px;
+
+
+}}
+
+
+
 @media  screen and (width: 390px) and (height: 844px)   {
     .conteiner-page-login{
         height: 844px;
@@ -103,35 +158,16 @@
     font-size: 50px;
 
 }
+}
 
-    
 }
 
 
-@media  screen and (width: 400px) and (height: 700px) {
     
-    .conteiner-page-login{
-        height: 700px;
-        margin: 0px;
-        
-        box-sizing: border-box;
-        background-color: black;
-    
-        text-align: center;
-        color: white;
-    }
-
-       
-    .login-nome{
-    
-        padding-top: 1em;
-        font-family: 'Roboto', sans-serif;
-        font-style: Medium;
-      
-        font-size: 50px;
-    
-    }
-}
 
 
+
+
+
+    
 
