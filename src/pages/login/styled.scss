@@ -1,8 +1,41 @@
 
 
-@media screen and  (min-width: 1025px) and (max-width: 2045){
+@media screen and  (min-width: 1025px) and (max-width: 1920px){
+    .conteiner-page-login {
+        display: flex;
+        flex-direction: row-reverse;
+      
+    }
 
-@media screen and (height: 789px) and (min-width: 1600px) {
+    .contenier-login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+      
+
+        height: auto;
+        width: 50%;
+
+        
+        background-color: #548DFA;
+    }
+
+
+    .login-nome {
+        margin-top: 3em;
+        margin-bottom: 2em;
+
+        font-size: 3em;
+         color: white;
+        
+    }
+
+    .login {
+      text-align: center;
+    }
+
+@media screen and (height: 789px) and (width: 1600px) {
     .conteiner-page-login {
         display: flex;
         flex-direction: row-reverse;
@@ -85,7 +118,7 @@
 @media  screen and  (min-width: 320px) and (max-width: 480px)   {
 
     .conteiner-page-login{
-        height: 896px;
+        height: 720px;
         margin: 0px;
         
         box-sizing: border-box;
@@ -98,12 +131,11 @@
     
 .login-nome{
 
-    padding-top: 3em;
+    padding-top: 1em;
     font-family: 'Roboto', sans-serif;
     font-style: Medium;
   
     font-size: 50px;
-
 }
 
 
