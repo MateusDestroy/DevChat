@@ -43,8 +43,45 @@ ul {
 
 
 
+@media  screen and  (min-width: 320px) and (max-width: 480px) {
+.chat-cabecalho {
+    padding-top: 0.5em;
+}
 
 
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    
+    justify-content: space-between;
+    margin: 0px;
+}
+
+
+.img-logo{
+    display: flex;
+    align-items: center;
+
+    .logo-img {
+        color: white;
+        font-size: 2em;
+    }
+}
+
+
+.sair {
+    margin-right:2em ;
+}
+
+
+.sair img {
+      height: 3em;
+      width: 3em;
+   
+}
+}
 
 
 
@@ -73,300 +110,4 @@ ul {
 
 
 
-
-@media  screen and  (min-width: 320px) and (max-width: 480px) {
-    .conteiner-input-button{
-        display: flex;
-        flex-direction: column;
-        color: white;
-    }
-    
-    .buttons-inputs-chat {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-       
-      
-    }
-    
-    
-    
-    
-    
-    
-    .inputs-info-sala {
-        display: flex;
-        flex-direction: row;
-       
-    }
-    .inputs-info-nick {
-        display: flex;
-        flex-direction: row;
-        margin-top: 10px;
-        
-    }
-    
-    
-    
-    
-    
-    button {
-        
-        padding: 8px 25px 8px 27px;
-        border-radius: 15px;
-        color: white;
-        background-color: #50B4BF;
-        border: none;
-    }
-    
-    
-    
-    input {
-    
-        padding: 5px;
-    
-        margin-top: 10px ;
-        margin-left: 10px;
-        margin-right: 20px;
-    
-        border-radius: 15px;
-        border: none;
-    }
-    
-    
-    .info-texto-chat {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .input-mensagens {
-        margin-top: 2em;
-       margin-left: 2em;
-    }
-    
-    .mensgens {
-        margin-bottom: 20px;
-    }
-    
-    textarea {
-        width: 18em ;
-        height: 2em;
-        margin-right: 10px ;
-        border-radius: 15px; 
-        resize: none;
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    .input-mensagens {
-        display:flex ;
-        flex-direction: column;
-    }
-    
-@media  screen and (width: 390px) and (height: 844px) {
-
-
-
-
-
-.conteiner-input-button{
-    display: flex;
-    flex-direction: column;
-    color: white;
-}
-
-.buttons-inputs-chat {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   
-  
-}
-
-
-
-
-
-
-.inputs-info-sala {
-    display: flex;
-    flex-direction: row;
-   
-}
-.inputs-info-nick {
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
-    
-}
-
-
-
-
-
-button {
-    
-    padding: 8px 25px 8px 27px;
-    border-radius: 15px;
-    color: white;
-    background-color: #50B4BF;
-    border: none;
-}
-
-
-
-input {
-
-    padding: 5px;
-
-    margin-top: 10px ;
-    margin-left: 10px;
-    margin-right: 20px;
-
-    border-radius: 15px;
-    border: none;
-}
-
-
-.info-texto-chat {
-    display: flex;
-    flex-direction: row;
-}
-
-.input-mensagens {
-    margin-top: 2em;
-   margin-left: 2em;
-}
-
-.mensgens {
-    margin-bottom: 20px;
-}
-
-textarea {
-    width: 18em ;
-    height: 2em;
-    margin-right: 10px ;
-    border-radius: 15px; 
-    resize: none;
-}
-
-
-
-
-
-
-
-
-.input-mensagens {
-    display:flex ;
-    flex-direction: column;
-}
-}
-
-
-
-@media  screen and (width: 400px) and (height: 700px) {
-
-
-
-    .conteiner-input-button{
-        display: flex;
-        flex-direction: column;
-        color: white;
-    }
-    
-    .buttons-inputs-chat {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-       
-      
-    }
-    
-    
-    
-    
-    
-    
-    .inputs-info-sala {
-        display: flex;
-        flex-direction: row;
-       
-    }
-    .inputs-info-nick {
-        display: flex;
-        flex-direction: row;
-        margin-top: 10px;
-        
-    }
-    
-    
-    
-    
-    
-    button {
-        
-        padding: 8px 25px 8px 27px;
-        border-radius: 15px;
-        color: white;
-        background-color: #50B4BF;
-        border: none;
-    }
-    
-    
-    
-    input {
-    
-        padding: 5px;
-    
-        margin-top: 10px ;
-        margin-left: 10px;
-        margin-right: 20px;
-    
-        border-radius: 15px;
-        border: none;
-    }
-    
-    
-    .info-texto-chat {
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .input-mensagens {
-        margin-top: 2em;
-       margin-left: 2em;
-    }
-    
-    .mensgens {
-        margin-bottom: 20px;
-    }
-    
-    textarea {
-        width: 18em ;
-        height: 2em;
-        margin-right: 10px ;
-        border-radius: 15px; 
-        resize: none;
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    .input-mensagens {
-        display:flex ;
-        flex-direction: column;
-    }
-
-}
-}
 

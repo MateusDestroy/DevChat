@@ -1,5 +1,5 @@
 
-@media screen and  (min-width: 1025px) and (max-width: 1600px){
+@media screen and  (min-width: 1024px) and (max-width: 1600px){
 
 .CriarContaButton {
     padding: 20px;
@@ -46,6 +46,16 @@
         
         text-align: center;
     }    
+
+    .voltar {
+        color:white;
+        text-decoration: none;
+    }
+    
+    
+    .voltar :hover {
+        color: #50B4BF;
+    }
     
     @media  screen and (width: 390px) and (height: 844px) {
         

@@ -347,6 +347,266 @@
 
 
 
+@media  screen and  (min-width: 320px) and (max-width: 480px) {
+   
+   
+   
+   
+   
+   
+    .conteiner-input-button{
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    
+    .buttons-inputs-chat {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+      
+    }
+    
+    
+    
+    
+    
+    
+    .inputs-info-sala {
+        display: flex;
+        flex-direction: row;
+       
+    }
+    .inputs-info-nick {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        
+    }
+    
+    
+    
+    
+    
+    button {
+        
+        padding: 8px 25px 8px 27px;
+        border-radius: 15px;
+        color: white;
+        background-color: #50B4BF;
+        border: none;
+    }
+    
+    
+    
+    input {
+    
+        padding: 5px;
+    
+        margin-top: 10px ;
+        margin-left: 10px;
+        margin-right: 20px;
+    
+        border-radius: 15px;
+        border: none;
+    }
+    
+    
+    .info-texto-chat {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .input-mensagens {
+        margin-top: 2em;
+       margin-left: 2em;
+    }
+    
+    .mensgens {
+        margin-bottom: 20px;
+    }
+    
+    textarea {
+        width: 18em ;
+        height: 2em;
+        margin-right: 10px ;
+        border-radius: 15px; 
+        resize: none;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .input-mensagens {
+        display:flex ;
+        flex-direction: column;
+    }
+
+
+
+
+    .conteiner-chat {
+
+        margin: 0px;
+        height: 844px;
+        background-color: #548DFA;
+    }
+
+
+
+    .conteiner-mensagens-chat {
+        display: flex;
+        flex-direction: column;
+
+        height: 45em;
+
+
+        margin: 2em 10px 2em 10px;
+        background-color: #3769C7;
+    }
+
+
+
+    span {
+        font-weight: bold;
+    }
+    
+    .chat {
+     
+         overflow-y: scroll;
+        
+         margin: 15px;
+         height: 30em;
+         background-color: #548DFA;
+    }
+    
+    .mensagens { 
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+    }
+    
+    .mensagens-chat{
+        
+      margin: 10px;
+      color: white;
+
+
+      div {
+        margin: 2px
+      }
+    }
+    
+    .usuario-nome {
+        font-weight: bold;
+    }
+
+    
+@media  screen and (width: 390px) and (height: 844px) {
+
+
+
+
+
+.conteiner-input-button{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.buttons-inputs-chat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  
+}
+
+
+
+
+
+
+.inputs-info-sala {
+    display: flex;
+    flex-direction: row;
+   
+}
+.inputs-info-nick {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    
+}
+
+
+
+
+
+button {
+    
+    padding: 8px 25px 8px 27px;
+    border-radius: 15px;
+    color: white;
+    background-color: #50B4BF;
+    border: none;
+}
+
+
+
+input {
+
+    padding: 5px;
+
+    margin-top: 10px ;
+    margin-left: 10px;
+    margin-right: 20px;
+
+    border-radius: 15px;
+    border: none;
+}
+
+
+.info-texto-chat {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-mensagens {
+    margin-top: 2em;
+   margin-left: 2em;
+}
+
+.mensgens {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 18em ;
+    height: 2em;
+    margin-right: 10px ;
+    border-radius: 15px; 
+    resize: none;
+}
+
+
+
+
+
+
+
+
+.input-mensagens {
+    display:flex ;
+    flex-direction: column;
+}
+}
+
 
 @media screen and (width: 390px) and (height: 844px) {
 
@@ -411,6 +671,107 @@
 }
 
 
+
+@media  screen and (width: 400px) and (height: 700px) {
+
+
+
+    .conteiner-input-button{
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    
+    .buttons-inputs-chat {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+      
+    }
+    
+    
+    
+    
+    
+    
+    .inputs-info-sala {
+        display: flex;
+        flex-direction: row;
+       
+    }
+    .inputs-info-nick {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        
+    }
+    
+    
+    
+    
+    
+    button {
+        
+        padding: 8px 25px 8px 27px;
+        border-radius: 15px;
+        color: white;
+        background-color: #50B4BF;
+        border: none;
+    }
+    
+    
+    
+    input {
+    
+        padding: 5px;
+    
+        margin-top: 10px ;
+        margin-left: 10px;
+        margin-right: 20px;
+    
+        border-radius: 15px;
+        border: none;
+    }
+    
+    
+    .info-texto-chat {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .input-mensagens {
+        margin-top: 2em;
+       margin-left: 2em;
+    }
+    
+    .mensgens {
+        margin-bottom: 20px;
+    }
+    
+    textarea {
+        width: 18em ;
+        height: 2em;
+        margin-right: 10px ;
+        border-radius: 15px; 
+        resize: none;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .input-mensagens {
+        display:flex ;
+        flex-direction: column;
+    }
+
+}
+
+
 @media screen and (width: 400px) and (height: 700px) {
 
     .conteiner-chat {
@@ -466,3 +827,11 @@
 
     
 }
+
+
+}
+
+
+
+
+
