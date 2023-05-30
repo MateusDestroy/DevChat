@@ -60,7 +60,7 @@ export default function Chat() {
     toast.dark('💕 Mensagem enviada com sucesso!');
     await puxarmensagem();
 
-  
+    
   };
 
 
@@ -74,11 +74,14 @@ export default function Chat() {
 
    
   };
+
+
+
   
  
 
 
-  puxarmensagem();
+  
 
 
  
@@ -89,8 +92,7 @@ export default function Chat() {
       <Cabecalho></Cabecalho>
       <ToastContainer />
       <div className="conteiner-mensagens-chat">
-
-    
+      
         <div className="chat">
           {chat.map(x => 
               <div className="mensagens-chat" key={x.id_chat}>
@@ -132,11 +134,12 @@ export default function Chat() {
           </div>
 
           <div className="input-mensagens">
-            <label className="mensgens"> Mensagens :</label>
+            <label className="mensgens"> Mensagens :   <button className="carregar" onClick={puxarmensagem}> Carregar</button> </label>
             <div className="info-texto-chat">
               <textarea className="texto-chat" value={msg} onChange={e => setMsg(e.target.value)} onKeyPress={enviarMensagem}></textarea>
               <div className="enviar-button">
                 <button className="enviar" onClick={enviarMensagem}> {">"} </button>
+            
               </div>
             </div>
           </div>
