@@ -1,5 +1,202 @@
 
 
+
+
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+
+ .email {
+    background-color: white;
+    text-align: center;
+    padding: 2em 4em 2em 4em;
+
+
+    border: none;
+    border-radius: 50px;
+    
+}
+
+ .senha {
+    background-color: white;
+    text-align: center;
+    padding: 2em 4em 2em 4em;
+
+
+    border: none;
+    border-radius: 50px;
+    
+}
+
+.inputs-cadastro {
+    background-color: white;
+    text-align: center;
+    padding: 2em 4em 2em 4em;
+
+
+    border: none;
+    border-radius: 50px;
+    
+}
+
+label {
+    
+    margin-bottom: 2em;
+    color: white;
+    
+}
+
+
+
+
+
+.button-entra {
+    
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    margin-top: 10px ;
+    margin-bottom: 10px;
+
+
+    border-radius: 50px;
+    color: white;
+    background-color: #50B4BF;
+    border:none;
+    cursor: pointer;
+}
+
+.criar  {
+    color: white;
+    text-decoration: none;
+}
+
+.criar  :hover {
+    color: #50B4BF ;
+}
+
+
+
+@media screen and (height: 789px) and (width: 1600px)  {
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+
+ .email {
+    background-color: white;
+    text-align: center;
+    padding: 2em 4em 2em 4em;
+
+
+    border: none;
+    border-radius: 50px;
+    
+}
+
+ .senha {
+    background-color: white;
+    text-align: center;
+    padding: 2em 4em 2em 4em;
+
+
+    border: none;
+    border-radius: 50px;
+    
+}
+
+.inputs-cadastro {
+    background-color: white;
+    text-align: center;
+    padding: 2em 4em 2em 4em;
+
+
+    border: none;
+    border-radius: 50px;
+    
+}
+
+label {
+    
+    margin-bottom: 2em;
+}
+
+
+
+
+.button-entra {
+    
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    margin-top: 10px ;
+    margin-bottom: 10px;
+
+
+    border-radius: 50px;
+    color: white;
+    background-color: #50B4BF;
+    border:none;
+    cursor: pointer;
+}
+
+.criar  {
+    color: white;
+    text-decoration: none;
+}
+
+.criar  :hover {
+    color: #50B4BF ;
+}
+
+.ver-senha-checkbox {
+  
+    
+    font-size: 15px;
+    color: white;
+     align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and  (min-width: 1024px) and (max-width: 1600px){
 
 @media screen and (height: 900px) and (width: 1600px)  {
@@ -443,41 +640,4 @@ label {
     
 
  }
-}
-    
-    
-    
-
-
-
-
-
-
-
-    
-    
-    
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}}
